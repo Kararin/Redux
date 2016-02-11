@@ -22,6 +22,7 @@ module.exports = function(grunt) {
                 ext: '.js'
             }
         },
+
         copy: {
             html: {
                 src: '<%= reactBase%>/index.html',
